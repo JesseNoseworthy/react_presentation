@@ -1,0 +1,67 @@
+// All global Typography goes here
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, 
+li,
+a,
+p,
+dt,
+dd {
+  font-family: var(--header-font-family);
+}
+
+h1,
+h2,
+h3,{
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 300;
+}
+
+
+h4,
+h5,
+h6 {
+  font-weight: 100;
+}
+
+li,
+a,
+p,
+dt,
+dd {
+  line-height: 28px;
+  letter-spacing: 0.095px;
+}
+
+h1 {
+  font-size: 44px;
+}
+
+h2 {
+  font-size: 38px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 28px;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+h6 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+}
