@@ -2,4 +2,12 @@
 
 .heroContainer {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 200px;
+  h1 {
+    color: var(--app-blue);
+  }
 }
