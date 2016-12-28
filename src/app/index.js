@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import PortfolioApp from '../components/PortfolioApp';
+import ReactPresentation from '../components/ReactPresentation';
 
 ReactDOM.render(
-  <PortfolioApp/>,
+  <ReactPresentation/>,
   document.getElementById('app')
 );

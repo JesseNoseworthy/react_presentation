@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import styles from './PortfolioApp.scss';
+import styles from './ReactPresentation.scss';
 import '../../globalStyles/index.scss';
 import Hero from '../Hero';
 
-class PortfolioApp extends Component {
+class ReactPresentation extends Component {
   render() {
     return (
-      <div className={styles.PortfolioApp}>
+      <div className={styles.ReactPresentation}>
         <Hero />
       </div>
     )
   }
 }
 
-export default PortfolioApp;
+export default ReactPresentation;
