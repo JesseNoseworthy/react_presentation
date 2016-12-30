@@ -2,19 +2,75 @@
   "slides": {
     "Slide 1": { 
       "title": "What is React?",
-      "text": "https://github.com/JesseNoseworthy" 
+      "text": "https://github.com/JesseNoseworthy",
+      "subContent": {
+        "SubContentItem1": {
+          "title": "Some interesting facts about React",
+          "points": [
+            "hi", "bye", "cheers"
+          ]
+        },
+        "SubContentItem2": {
+          "title": "HIEEE",
+          "points": [
+            "hi", "bye", "cheers"
+          ]
+        }
+      }
     },
     "Slide 2": { 
       "title": "Where is it currently being used?",
-      "text": "https://twitter.com/JesseNoseworthy"
+      "text": "https://twitter.com/JesseNoseworthy",
+      "subContent": {
+        "SubContentItem1": {
+          "title": "Some interesting facts about React",
+          "points": [
+            "hi", "bye", "cheers"
+          ]
+        },
+        "SubContentItem2": {
+          "title": "HIEEE",
+          "points": [
+            "hi", "bye", "cheers"
+          ]
+        }
+      }
     },
     "Slide 3": { 
       "title": "How does it differ from other technologies?",
-      "text": "https://medium.com/@JesseNoseworthy"
+      "text": "https://medium.com/@JesseNoseworthy",
+      "subContent": {
+        "SubContentItem1": {
+          "title": "Some interesting facts about React",
+          "points": [
+            "hi", "bye", "cheers"
+          ]
+        },
+        "SubContentItem2": {
+          "title": "HIEEE",
+          "points": [
+            "hi", "bye", "cheers"
+          ]
+        }
+      }
     },
     "Slide 4": { 
       "title": "What's next for React?",
-      "text": "mailto:noseworthyjesse@gmail.com"
+      "text": "mailto:noseworthyjesse@gmail.com",
+      "subContent": {
+        "SubContentItem1": {
+          "title": "Some interesting facts about React",
+          "points": [
+            "hi", "bye", "cheers"
+          ]
+        },
+        "SubContentItem2": {
+          "title": "HIEEE",
+          "points": [
+            "hi", "bye", "cheers"
+          ]
+        }
+      }
     }
   }
 }
