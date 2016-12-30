@@ -7,7 +7,7 @@ class Hero extends Component {
     return (
       <div className={styles.heroContainer}>
         <Image variant="hero" src={require('../../app/assets/react-logo.png')} />
-        <h1>An Introduction to React</h1>
+        <h1>An Introduction to <span className={styles.reactHighlight}>React</span></h1>
       </div>
     )
   }
