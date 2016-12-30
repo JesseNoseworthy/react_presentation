@@ -10,10 +10,10 @@ class Slide extends Component {
     } = this.props;
 
     return (
-      <div>
+      <div className="react-slides">
         {Object.keys(data).map(function(i) {
           return (
-            <div key={i}>
+            <div key={i} className={styles.slide}>
               <h1>{data[i].title}</h1>
             </div>
           )
