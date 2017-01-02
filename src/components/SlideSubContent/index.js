@@ -13,7 +13,6 @@ class SlideSubContent extends Component {
     return (
       <div className="slide-subContent" {...others}>
           {Object.keys(subContent).map(function(i) {
-            const point = subContent[i].points.toString().split(",");
             return (
               <div key={i} className={styles.slideSubContent, styles[variant]}>
                 {subContent[i].title ? <h4>{subContent[i].title}</h4> : null}
