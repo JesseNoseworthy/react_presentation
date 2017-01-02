@@ -5,13 +5,12 @@ import { map } from 'lodash';
 class SlideSubContentList extends Component {
   render() {
     const {
-      variant,
       point,
       ...others
     } = this.props;
 
     return (
-      <ul className={styles.slideSubContentList, styles[variant]} {...others}>
+      <ul className={styles.SlideSubContentList} {...others}>
         {Object.keys(point).map(function(i) {
           if (point[i]) {
             if(point[i].href) {
@@ -30,7 +29,6 @@ class SlideSubContentList extends Component {
 }
 
 SlideSubContentList.propTypes = {
-  variant: React.PropTypes.string,
   point: React.PropTypes.any,
 };
 
