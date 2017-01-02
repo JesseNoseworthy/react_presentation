@@ -4,18 +4,16 @@ import { map } from 'lodash';
 
 class SlideSubContentList extends Component {
   getListItem(point, linkablePoints) {
-    // render() {
-      return (
-        Object.keys(point).map(function(i) {
-          if (point[i]) {
-            if(point[i].href) {
-              return <a href={point[i].href} target="_blank"><li key={i}>{point[i].point}</li></a>
-            }
-            return <li key={i}>{point[i].point}</li>
+    return (
+      Object.keys(point).map(function(i) {
+        if (point[i]) {
+          if(point[i].href) {
+            return <a href={point[i].href} target="_blank"><li key={i}>{point[i].point}</li></a>
           }
-        })
-      )
-    // }
+          return <li key={i}>{point[i].point}</li>
+        }
+      })
+    )
   }
   render() {
     const {
