@@ -7,7 +7,6 @@ class SlideSubContentList extends Component {
     const {
       variant,
       point,
-      linkablePoints,
       ...others
     } = this.props;
     console.log(point);

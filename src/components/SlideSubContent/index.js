@@ -16,7 +16,7 @@ class SlideSubContent extends Component {
             return (
               <div key={i} className={styles.slideSubContent, styles[variant]}>
                 {subContent[i].title ? <h4>{subContent[i].title}</h4> : null}
-                <SlideSubContentList point={subContent[i].points} linkablePoints={subContent[i].linkablePoints}/>
+                <SlideSubContentList point={subContent[i].points} />
               </div>
             )
           })}
