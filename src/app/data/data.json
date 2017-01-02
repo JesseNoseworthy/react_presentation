@@ -2,7 +2,6 @@
   "slides": {
     "Slide 1": { 
       "title": "What is React?",
-      "text": "https://github.com/JesseNoseworthy",
       "subContent": {
         "SubContentItem1": {
           "title": "Some interesting facts about React",
