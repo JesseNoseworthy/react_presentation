@@ -7,73 +7,80 @@
         "SubContentItem1": {
           "title": "Some interesting facts about React",
           "points": [
-            "hieeee"
+            "React is developed and maintained by developers from FaceBook, Instagram and a small community of developers from other organizations",
+            "The initial release of React was in March 2013, which would make it three years old",
+            "React is FaceBooks top repository by over tens-of-thousands of stars and is currently the fifth most starred repository on all of GitHub (only two-thousand stars ahead of Angular.js)"
           ]
         },
         "SubContentItem2": {
-          "title": "HIEEE",
+          "title": "What does React actually do?",
           "points": [
-            "hi", 
-            "bye", 
-            "cheers"
+            "React is an open-source JavaScript library which renders data as HTML", 
+            "React operates off of a 'data tree', which essentially boils down to passing data between 'reusable components'", 
+            "To expand on 'reusable components', the best example would be a button component",
+            "We utilize 'props' to pass data around the tree, which will manipulate the button as required",
+            "We can also use 'PropTypes' to specify what we expect for the component ('isRequired' can specifically throw a console error if rules aren't followed)",
+            "'Reusable components' should be kept as small as possible; if they serve more than one purpose create a new component",
+            "Here's how FaceBook describes component-based development within React:",
+            "Since component logic is written in JavaScript instead of templates you can easily pass rich data through your app and keep state out of the DOM."
+          ]
+        },
+        "SubContentItem3": {
+          "title": "React is also very fast",
+          "points": [
+            "You can take advantage of 'state', which will allow for the DOM to rerender every time a components state changes", 
+            "This can be really powerful when handling DOM changes",
+            "In its simplest form React will allow for a cleaner, more efficient and much faster application than a plain HTML application"
           ]
         }
       }
     },
     "Slide 2": { 
       "title": "Where is it currently being used?",
-      "text": "https://twitter.com/JesseNoseworthy",
       "subContent": {
         "SubContentItem1": {
-          "title": "Some interesting facts about React",
+          "title": "Some top organizations currently utilize React:",
           "points": [
-            "b"
+            "Netflix",
+            "Imgur",
+            "Bleacher Report",
+            "Airbnb",
+            "Walmart"
           ]
         },
-        "SubContentItem2": {
-          "title": "HIEEE",
-          "points": [ 
-            "cheers"
+        "SubContentItem1": {
+          "title": "Some top organizations currently utilize React:",
+          "points": [
+            "Netflix",
+            "Imgur",
+            "Bleacher Report",
+            "Airbnb",
+            "Walmart"
+          ]
+        },
+        "SubContentItem1": {
+          "title": "Examples at Climax",
+          "points": [
+            "Acura.ca Redesign"
           ]
         }
       }
     },
     "Slide 3": { 
       "title": "How does it differ from other technologies?",
-      "text": "https://medium.com/@JesseNoseworthy",
       "subContent": {
         "SubContentItem1": {
-          "title": "Some interestin",
-          "points": [
-            "hi", "bye", "cheers"
-          ]
-        },
-        "SubContentItem2": {
-          "title": "HIEEE",
-          "points": [
-            "hello", 
-            "be great"
-          ]
+          "title": "",
+          "points": []
         }
       }
     },
     "Slide 4": { 
       "title": "What's next for React?",
-      "text": "mailto:noseworthyjesse@gmail.com",
       "subContent": {
         "SubContentItem1": {
-          "title": "So",
-          "points": [
-            "hi", 
-            "bye", 
-            "cheers"
-          ]
-        },
-        "SubContentItem2": {
-          "title": "HIEEE",
-          "points": [
-            "hi"
-          ]
+          "title": "",
+          "points": []
         }
       }
     }

@@ -16,10 +16,10 @@ class SlideSubContent extends Component {
             const point = subContent[i].points.toString().split(",");
             return (
               <div key={i}>
-                <h4>{subContent[i].title}</h4>
+                {subContent[i].title ? <h4>{subContent[i].title}</h4> : null}
                 <ul>
                   {Object.keys(point).map(function(i) {
-                    return <li key={i}>{point[i]}</li>
+                    return point[i] ? <li key={i}>{point[i]}</li> : null
                   })}
                 </ul>
               </div>
