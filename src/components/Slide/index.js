@@ -5,7 +5,6 @@ import SlideSubContent from '../SlideSubContent';
 class Slide extends Component {
   render() {
     const {
-      data,
       variant,
       title,
       subContent,
@@ -13,7 +12,7 @@ class Slide extends Component {
     } = this.props;
 
     return (
-      <div className={styles.slide}>
+      <div className={styles.slide, styles[variant]}>
         <h1>{title}</h1>
         <SlideSubContent subContent={subContent} />
       </div>
