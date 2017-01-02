@@ -11,7 +11,7 @@ class SlideSubContent extends Component {
     } = this.props;
 
     return (
-      <div className="react-subContent" className={styles.slideSubContent}>
+      <div className="react-subContent" className={styles.slideSubContent} {...others}>
           {Object.keys(subContent).map(function(i) {
             const point = subContent[i].points.toString().split(",");
             return (
@@ -32,6 +32,11 @@ class SlideSubContent extends Component {
 
 SlideSubContent.propTypes = {
   variant: React.PropTypes.string,
+  subContent: React.PropTypes.object,
+};
+
+SlideSubContent.defaultProps = {
+  subContent: {},
 };
 
 export default SlideSubContent;
