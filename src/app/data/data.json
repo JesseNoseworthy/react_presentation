@@ -6,32 +6,74 @@
       "subContent": {
         "SubContentItem1": {
           "title": "Some interesting facts about React",
-          "points": [
-            "React is developed and maintained by developers from FaceBook, Instagram and a small community of developers from other organizations",
-            "The initial release of React was in March 2013, which would make it three years old",
-            "React is FaceBooks top repository by over tens-of-thousands of stars and is currently the fifth most starred repository on all of GitHub (only two-thousand stars ahead of Angular.js)"
-          ]
+          "points": {
+            "1": {
+              "point": "React is developed and maintained by developers from FaceBook, Instagram and a small community of developers from other organizations",
+              "href": ""
+            },
+            "2": {
+              "point": "The initial release of React was in March 2013, which would make it three years old",
+              "href": ""
+            },
+            "3": {
+              "point": "React is FaceBooks top repository by over tens-of-thousands of stars and is currently the fifth most starred repository on all of GitHub (only two-thousand stars ahead of Angular.js)",
+              "href": ""
+            }
+          }
         },
         "SubContentItem2": {
           "title": "What does React actually do?",
-          "points": [
-            "React is an open-source JavaScript library which renders data as HTML", 
-            "React operates off of a 'data tree', which essentially boils down to passing data between 'reusable components'", 
-            "To expand on 'reusable components', the best example would be a button component",
-            "We utilize 'props' to pass data around the tree, which will manipulate the button as required",
-            "We can also use 'PropTypes' to specify what we expect for the component ('isRequired' can specifically throw a console error if rules aren't followed)",
-            "'Reusable components' should be kept as small as possible; if they serve more than one purpose create a new component",
-            "Here's how FaceBook describes component-based development within React:",
-            "Since component logic is written in JavaScript instead of templates you can easily pass rich data through your app and keep state out of the DOM."
-          ]
+          "points": {
+            "1": {
+              "point": "React is an open-source JavaScript library which renders data as HTML",
+              "href": ""
+            },
+            "2": {
+              "point": "React operates off of a 'data tree', which essentially boils down to passing data between 'reusable components'",
+              "href": ""
+            },
+            "3": {
+              "point": "To expand on 'reusable components', the best example would be a button component",
+              "href": ""
+            },
+            "4": {
+              "point": "We utilize 'props' to pass data around the tree, which will manipulate the button as required",
+              "href": ""
+            },
+            "5": {
+              "point": "We can also use 'PropTypes' to specify what we expect for the component ('isRequired' can specifically throw a console error if rules aren't followed)",
+              "href": ""
+            },
+            "6": {
+              "point": "'Reusable components' should be kept as small as possible; if they serve more than one purpose create a new component",
+              "href": ""
+            },
+            "7": {
+              "point": "Here's how FaceBook describes component-based development within React:",
+              "href": ""
+            },
+            "8": {
+              "point": "Since component logic is written in JavaScript instead of templates you can easily pass rich data through your app and keep state out of the DOM.",
+              "href": ""
+            }
+          }
         },
         "SubContentItem3": {
           "title": "React is also very fast",
-          "points": [
-            "You can take advantage of 'state', which will allow for the DOM to rerender every time a components state changes", 
-            "This can be really powerful when handling DOM changes",
-            "In its simplest form React will allow for a cleaner, more efficient and much faster application than a plain HTML application"
-          ]
+          "points": {
+            "1": {
+              "point": "You can take advantage of 'state', which will allow for the DOM to rerender every time a components state changes",
+              "href": ""
+            },
+            "2": {
+              "point": "This can be really powerful when handling DOM changes",
+              "href": ""
+            },
+            "3": {
+              "point": "In its simplest form React will allow for a cleaner, more efficient and much faster application than a plain HTML application",
+              "href": ""
+            }
+          }
         }
       }
     },
@@ -40,29 +82,37 @@
       "subContent": {
         "SubContentItem1": {
           "title": "Some top organizations currently utilize React:",
-          "points": [
-            "Netflix",
-            "Imgur",
-            "Bleacher Report",
-            "Airbnb",
-            "Walmart"
-          ]
+          "points": {
+            "1": {
+              "point": "Netflix",
+              "href": "https://www.netflix.com"
+            },
+            "2": {
+              "point": "Imgur",
+              "href": "http://imgur.com"
+            },
+            "3": {
+              "point": "Bleacher Report",
+              "href": "http://bleacherreport.com"
+            },
+            "4": {
+              "point": "Airbnb",
+              "href": "https://www.airbnb.ca"
+            },
+            "5": {
+              "point": "Walmart USA",
+              "href": "https://www.walmart.com"
+            }
+          }
         },
-        "SubContentItem1": {
-          "title": "Some top organizations currently utilize React:",
-          "points": [
-            "Netflix",
-            "Imgur",
-            "Bleacher Report",
-            "Airbnb",
-            "Walmart"
-          ]
-        },
-        "SubContentItem1": {
+        "SubContentItem2": {
           "title": "Examples at Climax",
-          "points": [
-            "Acura.ca Redesign"
-          ]
+          "points": {
+            "Acura.ca Redesign": {
+              "point": "Acura.ca Redesign",
+              "href": "http://www.acura.ca/"
+            }
+          }
         }
       }
     },

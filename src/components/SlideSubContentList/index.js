@@ -3,18 +3,32 @@ import styles from './SlideSubContentList.scss';
 import { map } from 'lodash';
 
 class SlideSubContentList extends Component {
+  getListItem(point, linkablePoints) {
+    // render() {
+      return (
+        Object.keys(point).map(function(i) {
+          if(point[i] && !point[i].href) {
+           return <li key={i}>{point[i].point}</li>
+          } else if (point[i].href) {
+            console.log(point[i]);
+            return <a href={point[i].href} target="_blank" ><li key={i}>{point[i].point}</li></a>
+          }
+        })
+      )
+    // }
+  }
   render() {
     const {
       variant,
       point,
+      linkablePoints,
       ...others
     } = this.props;
 
+    const parsePoint = point.toString().split(",");
     return (
       <ul className={styles.slideSubContentList, styles[variant]} {...others}>
-        {Object.keys(point).map(function(i) {
-          return point[i] ? <li key={i}>{point[i]}</li> : null
-        })}
+        {this.getListItem(point, linkablePoints)}
       </ul>
     );
   }
@@ -22,11 +36,11 @@ class SlideSubContentList extends Component {
 
 SlideSubContentList.propTypes = {
   variant: React.PropTypes.string,
-  point: React.PropTypes.array,
+  // point: React.PropTypes.array,
 };
 
 SlideSubContentList.defaultProps = {
-  point: [],
+  // point: [],
 };
 
 export default SlideSubContentList;
