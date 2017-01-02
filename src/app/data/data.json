@@ -120,7 +120,7 @@
       "subContent": {
         "SubContentItem1": {
           "title": "",
-          "points": []
+          "points": {}
         }
       }
     },
@@ -129,7 +129,7 @@
       "subContent": {
         "SubContentItem1": {
           "title": "",
-          "points": []
+          "points": {}
         }
       }
     }
