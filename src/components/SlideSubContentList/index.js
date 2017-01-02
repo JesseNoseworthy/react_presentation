@@ -11,7 +11,7 @@ class SlideSubContentList extends Component {
     } = this.props;
 
     return (
-      <ul className={styles.slideSubContentList} {...others}>
+      <ul className={styles.slideSubContentList, styles[variant]} {...others}>
         {Object.keys(point).map(function(i) {
           return point[i] ? <li key={i}>{point[i]}</li> : null
         })}
