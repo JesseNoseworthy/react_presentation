@@ -1,23 +1,21 @@
 import React, { Component } from 'react';
 import styles from './Slide.scss';
+import SlideSubContent from '../SlideSubContent';
 
 class Slide extends Component {
   render() {
     const {
       data,
       variant,
+      title,
+      subContent,
       ...others
     } = this.props;
 
     return (
-      <div className="react-slides">
-        {Object.keys(data).map(function(i) {
-          return (
-            <div key={i} className={styles.slide}>
-              <h1>{data[i].title}</h1>
-            </div>
-          )
-        })}
+      <div className={styles.slide}>
+        <h1>{title}</h1>
+        <SlideSubContent subContent={subContent} />
       </div>
     );
   }
