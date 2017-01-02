@@ -7,13 +7,15 @@
         "SubContentItem1": {
           "title": "Some interesting facts about React",
           "points": [
-            "hi", "bye", "cheers"
+            "hieeee"
           ]
         },
         "SubContentItem2": {
           "title": "HIEEE",
           "points": [
-            "hi", "bye", "cheers"
+            "hi", 
+            "bye", 
+            "cheers"
           ]
         }
       }
@@ -25,13 +27,13 @@
         "SubContentItem1": {
           "title": "Some interesting facts about React",
           "points": [
-            "hi", "bye", "cheers"
+            "b"
           ]
         },
         "SubContentItem2": {
           "title": "HIEEE",
-          "points": [
-            "hi", "bye", "cheers"
+          "points": [ 
+            "cheers"
           ]
         }
       }
@@ -41,7 +43,7 @@
       "text": "https://medium.com/@JesseNoseworthy",
       "subContent": {
         "SubContentItem1": {
-          "title": "Some interesting facts about React",
+          "title": "Some interestin",
           "points": [
             "hi", "bye", "cheers"
           ]
@@ -49,7 +51,8 @@
         "SubContentItem2": {
           "title": "HIEEE",
           "points": [
-            "hi", "bye", "cheers"
+            "hello", 
+            "be great"
           ]
         }
       }
@@ -59,15 +62,17 @@
       "text": "mailto:noseworthyjesse@gmail.com",
       "subContent": {
         "SubContentItem1": {
-          "title": "Some interesting facts about React",
+          "title": "So",
           "points": [
-            "hi", "bye", "cheers"
+            "hi", 
+            "bye", 
+            "cheers"
           ]
         },
         "SubContentItem2": {
           "title": "HIEEE",
           "points": [
-            "hi", "bye", "cheers"
+            "hi"
           ]
         }
       }

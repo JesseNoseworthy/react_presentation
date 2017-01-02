@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styles from './Slide.scss';
+import SlideSubContent from '../SlideSubContent';
 
 class Slide extends Component {
   render() {
@@ -7,25 +8,14 @@ class Slide extends Component {
       data,
       variant,
       title,
-      subTitle,
+      subContent,
       ...others
     } = this.props;
 
     return (
       <div className="react-slides" className={styles.slide}>
         <h1>{title}</h1>
-        {Object.keys(subTitle).map(function(i) {
-          const a = subTitle[i].points;
-          console.log(a);
-          return (
-            <div key={i}>
-              <h4>{subTitle[i].title}</h4>
-              <ul>
-                <li>{subTitle[i].points.split()}</li>
-              </ul>
-            </div>
-          )
-        })}
+        <SlideSubContent subContent={subContent} />
       </div>
     );
   }
