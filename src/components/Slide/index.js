@@ -13,7 +13,7 @@ class Slide extends Component {
     } = this.props;
 
     return (
-      <div className="react-slides" className={styles.slide}>
+      <div className={styles.slide}>
         <h1>{title}</h1>
         <SlideSubContent subContent={subContent} />
       </div>

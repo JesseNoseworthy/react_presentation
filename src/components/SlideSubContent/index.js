@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styles from './SlideSubContent.scss';
-import { map } from 'lodash';
+import SlideSubContentList from '../SlideSubContentList';
 
 class SlideSubContent extends Component {
   render() {
@@ -11,17 +11,13 @@ class SlideSubContent extends Component {
     } = this.props;
 
     return (
-      <div className="react-subContent" className={styles.slideSubContent} {...others}>
+      <div className={styles.slideSubContent} {...others}>
           {Object.keys(subContent).map(function(i) {
             const point = subContent[i].points.toString().split(",");
             return (
               <div key={i}>
                 {subContent[i].title ? <h4>{subContent[i].title}</h4> : null}
-                <ul>
-                  {Object.keys(point).map(function(i) {
-                    return point[i] ? <li key={i}>{point[i]}</li> : null
-                  })}
-                </ul>
+                <SlideSubContentList point={point} />
               </div>
             )
           })}
