@@ -9,8 +9,7 @@ class SlideSubContentList extends Component {
       point,
       ...others
     } = this.props;
-    console.log(point);
-    const parsePoint = point.toString().split(",");
+
     return (
       <ul className={styles.slideSubContentList, styles[variant]} {...others}>
         {Object.keys(point).map(function(i) {
