@@ -7,11 +7,11 @@ class SlideSubContentList extends Component {
     // render() {
       return (
         Object.keys(point).map(function(i) {
-          if(point[i] && !point[i].href) {
-           return <li key={i}>{point[i].point}</li>
-          } else if (point[i].href) {
-            console.log(point[i]);
-            return <a href={point[i].href} target="_blank" ><li key={i}>{point[i].point}</li></a>
+          if (point[i]) {
+            if(point[i].href) {
+              return <a href={point[i].href} target="_blank"><li key={i}>{point[i].point}</li></a>
+            }
+            return <li key={i}>{point[i].point}</li>
           }
         })
       )
