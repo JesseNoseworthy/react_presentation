@@ -1,5 +1,12 @@
 .SlideSubContent {
-  h4 {
+  margin: 125px 0;
+  height: 100vh;
+  padding-top: 50px;
+  border-top: 1px solid var(--app-white);
+  &:first-child {
+    margin-top: 50px;
+  }
+  h3 {
     padding: 10px 0;
     color: var(--app-blue);
   }
