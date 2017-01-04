@@ -11,17 +11,27 @@ a,
 p,
 dt,
 dd {
-  font-family: var(--header-font-family);
+  letter-spacing: 4px;
 }
 
 h1,
 h2,
-h3,{
+h3 {
+  font-family: var(--header-font-family);
   text-transform: uppercase;
-  letter-spacing: 1.5px;
   font-weight: 300;
 }
 
+h4,
+h5,
+h6,
+li,
+a,
+p,
+dt,
+dd {
+  font-family: var(--base-font-family);
+}
 
 h4,
 h5,
@@ -35,11 +45,12 @@ p,
 dt,
 dd {
   line-height: 28px;
-  letter-spacing: 0.095px;
+  letter-spacing: 0.65px;
+  font-weight: lighter;
 }
 
 h1 {
-  font-size: 44px;
+  font-size: 62px;
 }
 
 h2 {

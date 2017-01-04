@@ -3,8 +3,12 @@
   padding: 50px;
   color: var(--app-white);
   h1 {
-    border-bottom: 1px solid var(--app-white);
+    border-top: 1px solid var(--app-white);
     margin-bottom: 15px;
     padding-bottom: 15px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
