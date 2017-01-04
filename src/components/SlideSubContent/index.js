@@ -14,7 +14,7 @@ class SlideSubContent extends Component {
           {Object.keys(subContent).map(function(i) {
             return (
               <div key={i} className={styles.SlideSubContent}>
-                {subContent[i].title ? <h3>{subContent[i].title}</h3> : null}
+                {subContent[i].title ? <h2>{subContent[i].title}</h2> : null}
                 <SlideSubContentList point={subContent[i].points} />
               </div>
             )
