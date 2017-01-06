@@ -7,8 +7,19 @@
     font-weight: 100;
   }
   li {
-    list-style-type: circle;
-    margin-left: 30px;
+    &:not(.isQuote) {
+      list-style-type: circle;
+      margin-left: 30px;
+    }
+
+    &.isQuote {
+      list-style-type: none;
+      border-left: 1px solid var(--app-white);
+      padding-left: 20px;
+      margin-left: 10px;
+      font-style: italic;
+      font-size: 20px;
+    }
   }
   a {
     text-decoration: none;
