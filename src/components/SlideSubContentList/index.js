@@ -14,7 +14,6 @@ class SlideSubContentList extends Component {
     return (
       <ul className={styles.SlideSubContentList} {...others}>
         {Object.keys(point).map(function(i) {
-          const isQuote = point[i].quote;
           if (point[i]) {
             if(point[i].href) {
               return (
@@ -23,7 +22,7 @@ class SlideSubContentList extends Component {
                 </Link>
               )
             }
-            return <li key={i} className={classnames({[styles.isQuote]: isQuote })}>{point[i].point}</li>
+            return <li key={i} className={classnames({[styles.isQuote]: point[i].quote })}>{point[i].point}</li>
           }
         })}
       </ul>
