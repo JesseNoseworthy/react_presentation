@@ -8,15 +8,18 @@
           "points": {
             "1": {
               "point": "React is developed and maintained by developers from FaceBook, Instagram and a small community of developers from other organizations",
-              "href": ""
+              "href": "",
+              "quote": false
             },
             "2": {
               "point": "The initial release of React was in March 2013, which would make it three years old",
-              "href": ""
+              "href": "",
+              "quote": false
             },
             "3": {
               "point": "React is FaceBooks top repository by over tens-of-thousands of stars and is currently the fifth most starred repository on all of GitHub (only two-thousand stars ahead of Angular.js)",
-              "href": ""
+              "href": "",
+              "quote": false
             }
           }
         },
@@ -25,35 +28,43 @@
           "points": {
             "1": {
               "point": "React is an open-source JavaScript library which renders data as HTML",
-              "href": ""
+              "href": "",
+              "quote": false
             },
             "2": {
               "point": "React operates off of a 'data tree', which essentially boils down to passing data between 'reusable components'",
-              "href": ""
+              "href": "",
+              "quote": false
             },
             "3": {
               "point": "To expand on 'reusable components', the best example would be a button component",
-              "href": ""
+              "href": "",
+              "quote": false
             },
             "4": {
               "point": "We utilize 'props' to pass data around the tree, which will manipulate the button as required",
-              "href": ""
+              "href": "",
+              "quote": false
             },
             "5": {
               "point": "We can also use 'PropTypes' to specify what we expect for the component ('isRequired' can specifically throw a console error if rules aren't followed)",
-              "href": ""
+              "href": "",
+              "quote": false
             },
             "6": {
               "point": "'Reusable components' should be kept as small as possible; if they serve more than one purpose create a new component",
-              "href": ""
+              "href": "",
+              "quote": false
             },
             "7": {
               "point": "Here's how FaceBook describes component-based development within React:",
-              "href": ""
+              "href": "",
+              "quote": false
             },
             "8": {
               "point": "Since component logic is written in JavaScript instead of templates you can easily pass rich data through your app and keep state out of the DOM.",
-              "href": ""
+              "href": "",
+              "quote": true
             }
           }
         },
@@ -62,15 +73,18 @@
           "points": {
             "1": {
               "point": "You can take advantage of 'state', which will allow for the DOM to rerender every time a components state changes",
-              "href": ""
+              "href": "",
+              "quote": false
             },
             "2": {
               "point": "This can be really powerful when handling DOM changes",
-              "href": ""
+              "href": "",
+              "quote": false
             },
             "3": {
               "point": "In its simplest form React will allow for a cleaner, more efficient and much faster application than a plain HTML application",
-              "href": ""
+              "href": "",
+              "quote": false
             }
           }
         }
@@ -84,23 +98,28 @@
           "points": {
             "1": {
               "point": "Netflix",
-              "href": "https://www.netflix.com"
+              "href": "https://www.netflix.com",
+              "quote": false
             },
             "2": {
               "point": "Imgur",
-              "href": "http://imgur.com"
+              "href": "http://imgur.com",
+              "quote": false
             },
             "3": {
               "point": "Bleacher Report",
-              "href": "http://bleacherreport.com"
+              "href": "http://bleacherreport.com",
+              "quote": false
             },
             "4": {
               "point": "Airbnb",
-              "href": "https://www.airbnb.ca"
+              "href": "https://www.airbnb.ca",
+              "quote": false
             },
             "5": {
               "point": "Walmart USA",
-              "href": "https://www.walmart.com"
+              "href": "https://www.walmart.com",
+              "quote": false
             }
           }
         },
@@ -109,7 +128,8 @@
           "points": {
             "1": {
               "point": "Acura.ca Redesign",
-              "href": "http://www.acura.ca/"
+              "href": "http://www.acura.ca/",
+              "quote": false
             }
           }
         }
