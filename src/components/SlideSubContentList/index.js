@@ -23,7 +23,7 @@ class SlideSubContentList extends Component {
                 </Link>
               )
             }
-            return <li key={i} className={classnames('isQuote': isQuote )}>{point[i].point}</li>
+            return <li key={i} className={classnames({[styles.isQuote]: isQuote })}>{point[i].point}</li>
           }
         })}
       </ul>
