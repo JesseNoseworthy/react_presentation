@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styles from './SlideSubContentList.scss';
 import { map } from 'lodash';
+import classnames from 'classnames';
 import Link from '../Link';
 
 class SlideSubContentList extends Component {
@@ -21,7 +22,7 @@ class SlideSubContentList extends Component {
                 </Link>
               )
             }
-            return <li key={i}>{point[i].point}</li>
+            return <li key={i} className={classnames({[styles.isQuote]: point[i].quote })}>{point[i].point}</li>
           }
         })}
       </ul>
