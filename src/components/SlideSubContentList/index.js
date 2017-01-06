@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styles from './SlideSubContentList.scss';
 import { map } from 'lodash';
+import Link from '../Link';
 
 class SlideSubContentList extends Component {
   render() {
@@ -15,9 +16,9 @@ class SlideSubContentList extends Component {
           if (point[i]) {
             if(point[i].href) {
               return (
-                <a href={point[i].href} target="_blank" key={i}>
+                <Link href={point[i].href} target="_blank" key={i}>
                   <li>{point[i].point}</li>
-                </a>
+                </Link>
               )
             }
             return <li key={i}>{point[i].point}</li>
