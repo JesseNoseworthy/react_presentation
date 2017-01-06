@@ -39,7 +39,7 @@
             "3": {
               "point": "To expand on 'reusable components', the best example would be a button component",
               "href": "http://codepen.io/jessenoseworthy/pen/KawYod?editors=0110",
-              "quote": false,
+              "quote": false
             },
             "4": {
               "point": "We utilize 'props' to pass data around the tree, which will manipulate the button as required",
