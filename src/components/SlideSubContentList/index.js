@@ -11,7 +11,7 @@ class SlideSubContentList extends Component {
       ...others
     } = this.props;
 
-    const List = ({ point, href }) => {
+    const List = ({ point, href, quote }) => {
       if (point) {
         if (href) {
           return (
@@ -20,7 +20,7 @@ class SlideSubContentList extends Component {
             </Link>
           )
         }
-        return <li className={classnames({[styles.isQuote]: point.quote })}>{point}</li>
+        return <li className={classnames({[styles.isQuote]: quote })}>{point}</li>
       }
     };
 
