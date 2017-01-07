@@ -5,15 +5,14 @@ import SlideSubContent from '../SlideSubContent';
 class Slide extends Component {
   render() {
     const {
-      title,
       slides,
       ...others
     } = this.props;
 
     return (
       <div className={styles.slide}>
-        <h1>{title}</h1>
-        <SlideSubContent slides={slides} />
+        <h1>{slides.title}</h1>
+        <SlideSubContent subContent={slides.subContent} />
       </div>
     );
   }
