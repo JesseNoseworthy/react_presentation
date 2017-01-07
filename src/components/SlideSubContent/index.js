@@ -13,8 +13,8 @@ class SlideSubContent extends Component {
       return innerHtml ? <h2>{innerHtml}</h2> : null
     };
 
-    const SlideContainer = ({ title, className, points }) => (
-      <div className={className}>
+    const SlideContainer = ({ title, points }) => (
+      <div className={styles.SlideSubContent}>
         <SlideTitle innerHtml={title} />
         <SlideSubContentList point={points} />
       </div>
