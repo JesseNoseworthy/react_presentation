@@ -1,74 +1,74 @@
 {
-  "slides": {
-    "Slide 1": { 
+  "slides": [
+    { 
       "title": "What is React?",
-      "subContent": {
-        "SubContentItem1": {
+      "subContent": [
+        {
           "title": "Some interesting facts about React",
-          "points": {
-            "1": {
+          "points": [
+            {
               "point": "React is developed and maintained by developers from FaceBook, Instagram and a small community of developers from other organizations",
               "href": "",
               "quote": false
             },
-            "2": {
+            {
               "point": "The initial release of React was in March 2013, which would make it three years old",
               "href": "",
               "quote": false
             },
-            "3": {
+            {
               "point": "React is FaceBooks top repository by over tens-of-thousands of stars and is currently the fifth most starred repository on all of GitHub (only two-thousand stars ahead of Angular.js)",
               "href": "",
               "quote": false
             }
-          }
+          ]
         },
-        "SubContentItem2": {
+        {
           "title": "What does React actually do?",
-          "points": {
-            "1": {
+          "points": [
+            {
               "point": "React is an open-source JavaScript library which renders data as HTML",
               "href": "",
               "quote": false
             },
-            "2": {
+            {
               "point": "React operates off of a 'data tree', which essentially boils down to passing data between 'reusable components'",
               "href": "",
               "quote": false
             },
-            "3": {
+            {
               "point": "To expand on 'reusable components', the best example would be a button component",
               "href": "http://codepen.io/jessenoseworthy/pen/KawYod?editors=0110",
               "quote": false
             },
-            "4": {
+            {
               "point": "We utilize 'props' to pass data around the tree, which will manipulate the button as required",
               "href": "",
               "quote": false
             },
-            "5": {
+            {
               "point": "We can also use 'PropTypes' to specify what we expect for the component ('isRequired' can specifically throw a console error if rules aren't followed)",
               "href": "",
               "quote": false
             },
-            "6": {
+            {
               "point": "'Reusable components' should be kept as small as possible; if they serve more than one purpose create a new component",
               "href": "",
               "quote": false
             },
-            "7": {
+            {
               "point": "Here's how FaceBook describes component-based development within React:",
               "href": "",
               "quote": false
             },
-            "8": {
+            {
               "point": "Since component logic is written in JavaScript instead of templates you can easily pass rich data through your app and keep state out of the DOM.",
               "href": "",
               "quote": true
             }
-          }
+          ]
         },
-        "SubContentItem3": {
+        {
           "title": "React is also very fast",
           "points": {
             "1": {
@@ -88,70 +88,70 @@
             }
           }
         }
-      }
+      ]
     },
-    "Slide 2": { 
+    { 
       "title": "Where is it currently being used?",
-      "subContent": {
-        "SubContentItem1": {
+      "subContent": [
+        {
           "title": "Some top organizations currently utilize React:",
-          "points": {
-            "1": {
+          "points": [
+            {
               "point": "Netflix",
               "href": "https://www.netflix.com",
               "quote": false
             },
-            "2": {
+            {
               "point": "Imgur",
               "href": "http://imgur.com",
               "quote": false
             },
-            "3": {
+            {
               "point": "Bleacher Report",
               "href": "http://bleacherreport.com",
               "quote": false
             },
-            "4": {
+            {
               "point": "Airbnb",
               "href": "https://www.airbnb.ca",
               "quote": false
             },
-            "5": {
+            {
               "point": "Walmart USA",
               "href": "https://www.walmart.com",
               "quote": false
             }
-          }
+          ]
         },
-        "SubContentItem2": {
+        {
           "title": "Examples at Climax",
-          "points": {
-            "1": {
+          "points": [
+            {
               "point": "Acura.ca Redesign",
               "href": "http://www.acura.ca/",
               "quote": false
             }
-          }
+          ]
         }
-      }
+      ]
     },
-    "Slide 3": { 
+    { 
       "title": "How does it differ from other technologies?",
-      "subContent": {
-        "SubContentItem1": {
+      "subContent": [
+        {
           "title": "",
-          "points": {}
+          "points": []
         }
-      }
+      ]
     },
-    "Slide 4": { 
+    { 
       "title": "What's next for React?",
-      "subContent": {
-        "SubContentItem1": {
+      "subContent": [
+        {
           "title": "",
-          "points": {}
+          "points": []
         }
-      }
+      ]
     }
-  }
+  ]
 }
