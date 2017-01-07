@@ -34,11 +34,11 @@ class SlideSubContentList extends Component {
 }
 
 SlideSubContentList.propTypes = {
-  point: React.PropTypes.any,
+  point: React.PropTypes.array,
 };
 
 SlideSubContentList.defaultProps = {
-  point: {},
+  point: [],
 };
 
 export default SlideSubContentList;
