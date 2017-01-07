@@ -16,6 +16,7 @@ class SlideSubContent extends Component {
     const SlideContainer = ({ title, className, points }) => (
       <div className={className}>
         <SlideTitle innerHtml={title} />
+        <SlideSubContentList point={points} />
       </div>
     )
 
@@ -28,7 +29,7 @@ class SlideSubContent extends Component {
 }
 
 SlideSubContent.propTypes = {
-  subContent: React.PropTypes.object,
+  // subContent: React.PropTypes.object,
 };
 
 SlideSubContent.defaultProps = {
