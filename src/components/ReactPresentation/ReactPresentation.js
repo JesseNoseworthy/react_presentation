@@ -12,7 +12,7 @@ class ReactPresentation extends Component {
         <Hero />
         {Object.keys(appData.slides).map(function(i) {
           return (
-            <Slide key={i} title={appData.slides[i].title} subContent={appData.slides[i].subContent} />
+            <Slide key={i} title={appData.slides[i].title} slides={appData.slides} />
           )
         })}
       </div>

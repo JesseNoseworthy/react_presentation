@@ -5,22 +5,25 @@ import SlideSubContentList from '../SlideSubContentList';
 class SlideSubContent extends Component {
   render() {
     const {
-      subContent,
+      slides,
       ...others
     } = this.props;
 
-    return (
-      <div className="slide-subContent" {...others}>
-          {Object.keys(subContent).map(function(i) {
-            return (
-              <div key={i} className={styles.SlideSubContent}>
-                {subContent[i].title ? <h2>{subContent[i].title}</h2> : null}
-                <SlideSubContentList point={subContent[i].points} />
-              </div>
-            )
-          })}
+    const SlideTitle = ({ innerHtml }) => {
+      return innerHtml ? <h2>d</h2> : null
+    };
+
+    const SlideContainer = ({ subContent, className, points }) => (
+      <div className={className}>
+        <SlideTitle innerHtml={subContent} />
       </div>
-    );
+    )
+
+    return (
+      <div>
+        {slides.map((slideContent, i) => <SlideContainer key={i} {...slideContent} />)}
+      </div>
+    )
   }
 }
 

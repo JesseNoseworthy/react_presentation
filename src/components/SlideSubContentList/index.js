@@ -11,20 +11,22 @@ class SlideSubContentList extends Component {
       ...others
     } = this.props;
 
+    // {Object.keys(point).map(function(i) {
+    //   if (point[i]) {
+    //     if(point[i].href) {
+    //       return (
+    //         <Link href={point[i].href} target="_blank" key={i}>
+    //           <li>{point[i].point}</li>
+    //         </Link>
+    //       )
+    //     }
+    //     return <li key={i} className={classnames({[styles.isQuote]: point[i].quote })}>{point[i].point}</li>
+    //   }
+    // })}
+
     return (
       <ul className={styles.SlideSubContentList} {...others}>
-        {Object.keys(point).map(function(i) {
-          if (point[i]) {
-            if(point[i].href) {
-              return (
-                <Link href={point[i].href} target="_blank" key={i}>
-                  <li>{point[i].point}</li>
-                </Link>
-              )
-            }
-            return <li key={i} className={classnames({[styles.isQuote]: point[i].quote })}>{point[i].point}</li>
-          }
-        })}
+
       </ul>
     );
   }
