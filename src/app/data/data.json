@@ -70,23 +70,23 @@
         },
         {
           "title": "React is also very fast",
-          "points": {
-            "1": {
+          "points": [
+            {
               "point": "You can take advantage of 'state', which will allow for the DOM to rerender every time a components state changes",
               "href": "",
               "quote": false
             },
-            "2": {
+            {
               "point": "This can be really powerful when handling DOM changes",
               "href": "",
               "quote": false
             },
-            "3": {
+            {
               "point": "In its simplest form React will allow for a cleaner, more efficient and much faster application than a plain HTML application",
               "href": "",
               "quote": false
             }
-          }
+          ]
         }
       ]
     },

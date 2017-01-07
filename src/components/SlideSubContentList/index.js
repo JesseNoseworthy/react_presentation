@@ -11,38 +11,23 @@ class SlideSubContentList extends Component {
       ...others
     } = this.props;
 
-    // {Object.keys(point).map(function(i) {
-    //   if (point[i]) {
-    //     if(point[i].href) {
-    //       return (
-    //         <Link href={point[i].href} target="_blank" key={i}>
-    //           <li>{point[i].point}</li>
-    //         </Link>
-    //       )
-    //     }
-    //     return <li key={i} className={classnames({[styles.isQuote]: point[i].quote })}>{point[i].point}</li>
-    //   }
-    // })}
-
-    const List = ({ innerHtml }) => {
-      return innerHtml ? <li>{innerHtml}</li> : null
+    const List = ({ point, href }) => {
+      if (point) {
+        if (href) {
+          return (
+            <Link href={href} target="_blank">
+              <li>{point}</li>
+            </Link>
+          )
+        }
+        return <li className={classnames({[styles.isQuote]: point.quote })}>{point}</li>
+      }
     };
 
     return (
       <ul className={styles.SlideSubContentList} {...others}>
- 
-       {Object.keys(point).map(function(i) {
-         if (point[i]) {
-           if(point[i].href) {
-             return (
-               <Link href={point[i].href} target="_blank" key={i}>
-                 <li>{point[i].point}</li>
-               </Link>
-             )
-           }
-           return <li key={i} className={classnames({[styles.isQuote]: point[i].quote })}>{point[i].point}</li>
-         }
-       })}
+        {point.map((point, i) => <List key={i} {...point} /> )}
+
       </ul>
     );
   }
