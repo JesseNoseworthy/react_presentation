@@ -7,11 +7,10 @@ import appData from '../../app/data/data.json';
 
 class ReactPresentation extends Component {
   render() {
-    const slides = appData.slides;
     return (
       <div className={styles.ReactPresentation}>
         <Hero />
-        {slides.map((el, i) => 
+        {appData.slides.map((el, i) => 
           <Slide key={i} slides={el} />)}
       </div>
     )
