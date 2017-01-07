@@ -34,7 +34,7 @@ class SlideSubContentList extends Component {
 }
 
 SlideSubContentList.propTypes = {
-  // point: React.PropTypes.any,
+  point: React.PropTypes.any,
 };
 
 SlideSubContentList.defaultProps = {

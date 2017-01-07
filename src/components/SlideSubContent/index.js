@@ -29,7 +29,7 @@ class SlideSubContent extends Component {
 }
 
 SlideSubContent.propTypes = {
-  // subContent: React.PropTypes.object,
+  subContent: React.PropTypes.array
 };
 
 SlideSubContent.defaultProps = {
