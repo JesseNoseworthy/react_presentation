@@ -11,7 +11,7 @@ class SlideSubContentList extends Component {
       ...others
     } = this.props;
 
-    const List = ({ point, href, quote }) => {
+    const ListItem = ({ point, href, quote }) => {
       if (point) {
         if (href) {
           return (
@@ -26,7 +26,7 @@ class SlideSubContentList extends Component {
 
     return (
       <ul className={styles.SlideSubContentList} {...others}>
-        {point.map((point, i) => <List key={i} {...point} /> )}
+        {point.map((point, i) => <ListItem key={i} {...point} /> )}
 
       </ul>
     );
