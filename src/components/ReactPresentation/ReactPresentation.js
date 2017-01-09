@@ -10,11 +10,8 @@ class ReactPresentation extends Component {
     return (
       <div className={styles.ReactPresentation}>
         <Hero />
-        {Object.keys(appData.slides).map(function(i) {
-          return (
-            <Slide key={i} title={appData.slides[i].title} subContent={appData.slides[i].subContent} />
-          )
-        })}
+        {appData.slides.map((slides, i) => 
+          <Slide key={i} slides={slides} />)}
       </div>
     )
   }

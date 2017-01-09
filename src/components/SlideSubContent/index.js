@@ -9,23 +9,27 @@ class SlideSubContent extends Component {
       ...others
     } = this.props;
 
-    return (
-      <div className="slide-subContent" {...others}>
-          {Object.keys(subContent).map(function(i) {
-            return (
-              <div key={i} className={styles.SlideSubContent}>
-                {subContent[i].title ? <h2>{subContent[i].title}</h2> : null}
-                <SlideSubContentList point={subContent[i].points} />
-              </div>
-            )
-          })}
+    const SlideTitle = ({ innerHtml }) => {
+      return innerHtml ? <h2>{innerHtml}</h2> : null
+    };
+
+    const SlideContainer = ({ title, points }) => (
+      <div className={styles.SlideSubContent}>
+        <SlideTitle innerHtml={title} />
+        <SlideSubContentList point={points} />
       </div>
-    );
+    )
+
+    return (
+      <div>
+        {subContent.map((slideContent, i) => <SlideContainer key={i} {...slideContent} />)}
+      </div>
+    )
   }
 }
 
 SlideSubContent.propTypes = {
-  subContent: React.PropTypes.object,
+  subContent: React.PropTypes.array
 };
 
 SlideSubContent.defaultProps = {
