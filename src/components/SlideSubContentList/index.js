@@ -15,9 +15,9 @@ class SlideSubContentList extends Component {
       if (point) {
         if (href) {
           return (
-            <Link href={href} target="_blank">
-              <li>{point}</li>
-            </Link>
+            <li>
+              <Link href={href} target="_blank">{point}</Link>
+            </li>
           )
         }
         return <li className={classnames({[styles.isQuote]: quote })}>{point}</li>
