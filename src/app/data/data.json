@@ -2,6 +2,7 @@
   "slides": [
     { 
       "title": "What is React?",
+      "media": false,
       "subContent": [
         {
           "title": "Some interesting facts about React",
@@ -92,6 +93,7 @@
     },
     { 
       "title": "Where is it currently being used?",
+      "media": false,
       "subContent": [
         {
           "title": "Some top organizations currently utilize React:",
@@ -137,6 +139,7 @@
     },
     { 
       "title": "How does it differ from other technologies?",
+      "media": false,
       "subContent": [
         {
           "title": "",
@@ -146,6 +149,7 @@
     },
     { 
       "title": "What's next for React?",
+      "media": false,
       "subContent": [
         {
           "title": "",
