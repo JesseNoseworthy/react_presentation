@@ -11,7 +11,7 @@ class Slide extends Component {
 
     return (
       <div className={styles.slide}>
-        <h1>{slides.title}</h1>
+        { slides.title ? <h1>{slides.title}</h1> : null }
         <SlideSubContent subContent={slides.subContent} />
       </div>
     );
