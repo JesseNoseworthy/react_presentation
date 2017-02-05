@@ -1,21 +1,15 @@
 import React, { Component } from 'react';
 import styles from './Button.scss';
 
-class Button extends Component {
-  render() {
-    const { 
-      children,
-      variant,
-      ...others
-    } = this.props;
-
-    return (
-      <button className={styles[variant]} {...others}>
-        {children}
-      </button>
-    );
-  }
-}
+const Button = ({
+  children,
+  variant,
+  ...others
+}) => (
+  <button className={styles[variant]} {...others}>
+    {children}
+  </button>
+);
 
 Button.propTypes = {
   children: React.PropTypes.any,

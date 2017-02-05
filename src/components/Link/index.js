@@ -1,22 +1,16 @@
 import React, { Component } from 'react';
 import styles from './Link.scss';
 
-class Link extends Component {
-  render() {
-    const { 
-      href,
-      children,
-      variant,
-      ...others
-    } = this.props;
-
-    return (
-      <a className={styles[variant]} href={href} {...others}>
-        {children}
-      </a>
-    );
-  }
-}
+const Link = ({
+  href,
+  children,
+  variant,
+  ...others
+}) =>  (
+  <a className={styles[variant]} href={href} {...others}>
+    {children}
+  </a>
+);
 
 Link.propTypes = {
   href: React.PropTypes.string,

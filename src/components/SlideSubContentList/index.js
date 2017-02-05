@@ -4,34 +4,26 @@ import { map } from 'lodash';
 import classnames from 'classnames';
 import Link from '../Link';
 
-class SlideSubContentList extends Component {
-  render() {
-    const {
-      point,
-      ...others
-    } = this.props;
-
-    const ListItem = ({ point, href, quote }) => {
-      if (point) {
-        if (href) {
-          return (
-            <li>
-              <Link href={href} target="_blank">{point}</Link>
-            </li>
-          )
-        }
-        return <li className={classnames({[styles.isQuote]: quote })}>{point}</li>
-      }
-    };
-
-    return (
-      <ul className={styles.SlideSubContentList} {...others}>
-        {point.map((point, i) => <ListItem key={i} {...point} /> )}
-
-      </ul>
-    );
+const ListItem = ({ point, href, quote }) => {
+  if (point) {
+    if (href) {(
+        <li>
+          <Link href={href} target="_blank">{point}</Link>
+        </li>
+      )
+    }
+    return <li className={classnames({[styles.isQuote]: quote })}>{point}</li>
   }
-}
+};
+
+const SlideSubContentList = ({
+  point,
+  ...others
+}) => (
+  <ul className={styles.SlideSubContentList} {...others}>
+    {point.map((point, i) => <ListItem key={i} {...point} /> )}
+  </ul>
+);
 
 SlideSubContentList.propTypes = {
   point: React.PropTypes.array,
