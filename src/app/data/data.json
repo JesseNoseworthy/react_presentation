@@ -1,89 +1,29 @@
 {
   "slides": [
     { 
-      "title": "What is React?",
+      "title": "The Problem",
       "media": false,
       "subContent": [
         {
-          "title": "Some interesting facts about React",
+          "title": "A Traditional Website",
           "points": [
             {
-              "point": "React is developed and maintained by developers from FaceBook, Instagram and a small community of developers from other organizations",
+              "point": "Bloated websites",
               "href": "",
               "quote": false
             },
             {
-              "point": "The initial release of React was in March 2013, which would make it three years old",
+              "point": "An inefficient way to combine various technologies",
               "href": "",
               "quote": false
             },
             {
-              "point": "React is FaceBooks top repository by over tens-of-thousands of stars and is currently the fifth most starred repository on all of GitHub (only two-thousand stars ahead of Angular.js)",
-              "href": "",
-              "quote": false
-            }
-          ]
-        },
-        {
-          "title": "What does React actually do?",
-          "points": [
-            {
-              "point": "React is an open-source JavaScript library which renders data as HTML",
+              "point": "Large, unmaintainable codebases",
               "href": "",
               "quote": false
             },
             {
-              "point": "React operates off of a 'data tree', which essentially boils down to passing data between 'reusable components'",
-              "href": "",
-              "quote": false
-            },
-            {
-              "point": "To expand on 'reusable components', the best example would be a button component",
-              "href": "http://codepen.io/jessenoseworthy/pen/KawYod?editors=0110",
-              "quote": false
-            },
-            {
-              "point": "We utilize 'props' to pass data around the tree, which will manipulate the button as required",
-              "href": "",
-              "quote": false
-            },
-            {
-              "point": "We can also use 'PropTypes' to specify what we expect for the component ('isRequired' can specifically throw a console error if rules aren't followed)",
-              "href": "",
-              "quote": false
-            },
-            {
-              "point": "'Reusable components' should be kept as small as possible; if they serve more than one purpose create a new component",
-              "href": "",
-              "quote": false
-            },
-            {
-              "point": "Here's how FaceBook describes component-based development within React:",
-              "href": "",
-              "quote": false
-            },
-            {
-              "point": "Since component logic is written in JavaScript instead of templates you can easily pass rich data through your app and keep state out of the DOM.",
-              "href": "",
-              "quote": true
-            }
-          ]
-        },
-        {
-          "title": "React is also very fast",
-          "points": [
-            {
-              "point": "You can take advantage of 'state', which will allow for the DOM to rerender every time a components state changes",
-              "href": "",
-              "quote": false
-            },
-            {
-              "point": "This can be really powerful when handling DOM changes",
-              "href": "",
-              "quote": false
-            },
-            {
-              "point": "In its simplest form React will allow for a cleaner, more efficient and much faster application than a plain HTML application",
+              "point": "Excessive code",
               "href": "",
               "quote": false
             }
@@ -92,7 +32,83 @@
       ]
     },
     { 
-      "title": "Where is it currently being used?",
+      "title": "What is React?",
+      "media": false,
+      "subContent": [
+        {
+          "title": "Unifying technologies",
+          "points": [
+            {
+              "point": "Open-source JavaScript library",
+              "href": "",
+              "quote": false
+            },
+            {
+              "point": "The unification of HTML and JavaScript",
+              "href": "",
+              "quote": false
+            },
+            {
+              "point": "Clean development environment",
+              "href": "",
+              "quote": false
+            }
+          ]
+        },
+        {
+          "title": "Reusing code",
+          "points": [
+            {
+              "point": "'Reusable components'",
+              "href": "",
+              "quote": false
+            },
+            {
+              "point": "Smaller chunks of code = easier maintenance",
+              "href": "",
+              "quote": false
+            },
+            {
+              "point": "Ability to quickly prototype",
+              "href": "",
+              "quote": false
+            },
+            {
+              "point": "Easier to start future projects",
+              "href": "",
+              "quote": false
+            },
+            {
+              "point": "Example of reusable component",
+              "href": "http://codepen.io/jessenoseworthy/pen/KawYod",
+              "quote": false
+            }
+          ]
+        },
+        {
+          "title": "The fastest care in the race",
+          "points": [
+            {
+              "point": "Roughly 1/5 the size of other top JavaScript libraries",
+              "href": "",
+              "quote": false
+            },
+            {
+              "point": "Handles changes to page very well",
+              "href": "",
+              "quote": false
+            },
+            {
+              "point": "Re-rendering of page on 'state' change",
+              "href": "",
+              "quote": false
+            }
+          ]
+        }
+      ]
+    },
+    { 
+      "title": "This is Great, But Who's Using it?",
       "media": false,
       "subContent": [
         {
@@ -126,11 +142,11 @@
           ]
         },
         {
-          "title": "Examples at Climax",
+          "title": "And... we're using it at Climax!",
           "points": [
             {
-              "point": "Acura.ca Redesign",
-              "href": "http://www.acura.ca/",
+              "point": "The Acura Redesign project is currently using this structure",
+              "href": "https://www.netflix.com",
               "quote": false
             }
           ]
@@ -138,22 +154,62 @@
       ]
     },
     { 
-      "title": "How does it differ from other technologies?",
+      "title": "Some Fun Facts About React",
       "media": false,
       "subContent": [
         {
-          "title": "",
-          "points": []
+          "points": [
+            {
+              "point": "Developed and maintained by FaceBook, Instagram and a small community of developers",
+              "href": "",
+              "quote": false
+            },
+            {
+              "point": "Initial release: March 2013",
+              "href": "",
+              "quote": false
+            },
+            {
+              "point": "One of FaceBook's most popular projects",
+              "href": "",
+              "quote": false
+            },
+            {
+              "point": "In the top 5 projects developers are currently following/contributing to",
+              "href": "",
+              "quote": false
+            }
+          ]
         }
       ]
     },
     { 
-      "title": "What's next for React?",
+      "title": "So why choose React?",
       "media": false,
       "subContent": [
         {
-          "title": "",
-          "points": []
+          "points": [
+            {
+              "point": "Flexible development environment",
+              "href": "",
+              "quote": false
+            },
+            {
+              "point": "IQuick prototyping = ability for client to see the product much faster",
+              "href": "",
+              "quote": false
+            },
+            {
+              "point": "Easier follow-up projects",
+              "href": "",
+              "quote": false
+            },
+            {
+              "point": "Fast websites = positive user experience",
+              "href": "",
+              "quote": false
+            }
+          ]
         }
       ]
     }
