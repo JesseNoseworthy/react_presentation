@@ -59,7 +59,7 @@
           "title": "Reusing code",
           "points": [
             {
-              "point": "'Reusable components'",
+              "point": "\"Reusable components\"",
               "href": "",
               "quote": false
             },
@@ -100,7 +100,7 @@
               "quote": false
             },
             {
-              "point": "Re-rendering of page on 'state' change",
+              "point": "Re-rendering of page on \"state\" change",
               "href": "",
               "quote": false
             }
