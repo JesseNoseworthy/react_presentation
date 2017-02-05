@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styles from './Slide.scss';
 import SlideSubContent from '../SlideSubContent';
-import Image from '../Image';
+import SlideMedia from '../SlideMedia';
 
 class Slide extends Component {
   render() {
@@ -13,7 +13,7 @@ class Slide extends Component {
     return (
       <div className={styles.slide}>
         { slides.title ? <h1>{slides.title}</h1> : null }
-        { slides.media ? <Image src={slides.media} /> : null }
+        <SlideMedia source={slides.media} />
         <SlideSubContent subContent={slides.subContent} />
       </div>
     );
