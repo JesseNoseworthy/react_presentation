@@ -6,7 +6,8 @@ import Link from '../Link';
 
 const ListItem = ({ point, href, quote }) => {
   if (point) {
-    if (href) {(
+    if (href) {
+      return (
         <li>
           <Link href={href} target="_blank">{point}</Link>
         </li>
