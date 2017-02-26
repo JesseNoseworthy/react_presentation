@@ -9,8 +9,8 @@ const SlideTitle = ({ innerHtml }) => (
 
 const SlideContainer = ({ title, points, media }) => (
   <div className={styles.SlideSubContent}>
-    <SlideMedia source={media} />
     <SlideTitle innerHtml={title} />
+    <SlideMedia source={media} />
     <SlideSubContentList point={points} />
   </div>
 );
