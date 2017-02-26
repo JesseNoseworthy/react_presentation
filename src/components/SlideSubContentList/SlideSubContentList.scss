@@ -2,9 +2,14 @@
   a,
   li {
     color: var(--app-white);
-    font-size: 38px;
     padding: 12.5px 0;
     font-weight: 100;
+    @media only screen and (min-width: 768px) {
+      font-size: 38px;
+    }
+    @media only screen and (max-width: 767px) {
+      font-size: 22px;
+    }
   }
   li {
     &:not(.isQuote) {

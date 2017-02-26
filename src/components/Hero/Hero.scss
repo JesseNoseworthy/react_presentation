@@ -1,14 +1,19 @@
 // All Hero styles go here
 
 .heroContainer {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 200px;
   color: var(--app-white);
   .reactHighlight {
     color: var(--app-blue);
+  }
+  @media only screen and (min-width: 768px) {
+    height: 100vh;
+    padding-bottom: 200px;
+  }
+  @media only screen and (max-width: 767px) {
+    padding: 50px 20px 150px 20px;
   }
 }
