@@ -29,5 +29,5 @@ npm run build
 ```
 
 #### Links
-- [Presentation Notes](https://github.com/JesseNoseworthy/react_presentation/issues/1#issuecomment-275893133)
+- [Presentation Notes](https://github.com/JesseNoseworthy/react_presentation/wiki/Presentation-Notes)
 - [Presentation Points (as seen on slides)](https://github.com/JesseNoseworthy/react_presentation/issues/1#issuecomment-277542580)
